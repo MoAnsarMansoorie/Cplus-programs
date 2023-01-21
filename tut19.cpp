@@ -12,3 +12,7 @@ int sum(int a, int b, int c){
 
 }
 
+int main(){
+    cout<<"The sum of 3 and 6 is "<<sum(3,6)<<endl;
+    cout<<"The sum of 3 , 4 and 6 is "<<sum(3,4,6)<<endl;
+}
